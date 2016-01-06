@@ -1,0 +1,23 @@
+}
+header {
+    height: 200px;
+    background: #6C6C79;
+    color: darkslategray;
+      
+}
+.main-content-container{
+    min-height: 800px;
+    
+}
+.main-content-article{
+    
+}
+
+.main-container-sidebar{
+    border: 1px;
+    display: inline-block;
+    widows: 29%;
+}
+footer{
+    
+}
