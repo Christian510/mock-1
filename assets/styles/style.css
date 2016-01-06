@@ -1,8 +1,9 @@
-}
-header {
-    height: 200px;
+header{
+    height: 90px;
     background: #6C6C79;
-    color: darkslategray;
+         color: darkslategray;
+    text-align: center;
+	    border: 5px solid #000;
       
 }
 .main-content-container{
@@ -10,14 +11,26 @@ header {
     
 }
 .main-content-article{
-    
+      width: 70%;
+     border: 1px solid;
+    display: inline-block;   
 }
 
 .main-container-sidebar{
-    border: 1px;
+     border: 1px solid;
     display: inline-block;
-    widows: 29%;
+      width: 29%;
+	  float: right;
 }
+.main-container-siderbar-left{
+    width: 16%;
+    
+}
+
+.main-container-siderbar-right{
+    float: left;
+}
+
 footer{
     
 }
