@@ -3,7 +3,7 @@ html{
 }
 header{
     height: 90px;
-    background: #6C6C79;
+    background: #BCBCD6;
          color: darkslategray;
     text-align: center;
 	    border: 5px solid #000;
@@ -13,25 +13,42 @@ header{
     min-height: 800px;
     
 }
-.main-content-article{
+
+.main-container-sidebar.left{
+     width: 12%;
+     float: left;
+}
+
+.main-container-article{
       width: 70%;
-     border: 1px solid;
     display: inline-block;   
 }
 
-.main-container-sidebar{
-     border: 1px solid;
-    display: inline-block;
-      width: 29%;
-	  float: right;
-}
-.main-container-siderbar-left{
-    width: 16%;
-    
+.main-container-sidebar.right{
+      width: 12%;
+      float: right;
 }
 
-.main-container-siderbar-right{
-    float: left;
+.side-article{
+     border-top: 20px solid #CFE2F3;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+} 
+
+.img-placeholder{
+	height: 100px;
+	width: 100%;
+	background-color: darkblue;  
+} 
+
+.side-article{
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.side-article-title{
+    
 }
 
 footer{
